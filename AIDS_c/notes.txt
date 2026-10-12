@@ -1,0 +1,11 @@
+what is routing?
+Connectivity + url mapping
+app.py   - https://127.0.0.1:5000
+url <=> page
+home.html => /home
+login.html => /login
+
+app.routes,
+@app.route('/greet')
+def Greet():
+return "hello world!",
